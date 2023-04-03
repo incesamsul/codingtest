@@ -289,6 +289,25 @@ html {
     padding: 2rem;
 }
 
+.notification-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.notification {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    /* display: none; */
+}
+
+.notification-message {
+    margin: 0;
+    font-size: 14px;
+}
 
 .hide {
     display: none;

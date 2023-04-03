@@ -642,3 +642,12 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// / Get the notification element
+var notification = document.querySelector('.notification-container');
+
+
+// Hide the notification after 3 seconds
+setTimeout(function () {
+    notification.style.display = 'none';
+}, 3000);

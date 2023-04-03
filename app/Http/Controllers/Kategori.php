@@ -37,12 +37,12 @@ class Kategori extends Controller
             'nama_kategori' => $request->nama_kategori,
         ]);
 
-        return redirect()->back()->with('message', 'kategori tersimpan');
+        return redirect()->back()->with('message', 'kategori terupdate');
     }
 
     public function delete($idKategori)
     {
         KategoriModel::where('id_kategori', $idKategori)->delete();
-        return redirect()->back()->with('message', 'kategori tersimpan');
+        return redirect()->back()->with('message', 'kategori terhapus');
     }
 }

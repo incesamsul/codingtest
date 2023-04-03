@@ -48,6 +48,11 @@
 </head>
 
 @if (session('message'))
+    <div class="notification-container">
+        <div class="notification">
+            <p class="notification-message">{{ session('message', 'success') }}.</p>
+        </div>
+    </div>
     {{ sweetAlert(session('message'), 'success') }}
 @endif
 @if (session('error'))
