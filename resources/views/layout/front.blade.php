@@ -61,9 +61,9 @@
                     <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span
                                 class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>People</a>
                     </li>
-                    <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span
+                    <li class="nav-item px-lg-2"> <a class="nav-link" href="{{ URl::to('/kategori') }}"><span
                                 class="d-inline-block d-lg-none icon-width"><i
-                                    class="far fa-user"></i></i></span>More</a> </li>
+                                    class="far fa-user"></i></i></span>Kategori</a> </li>
                 </ul>
                 <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
                     <li class="nav-item"> <a class="nav-link" href="#">
